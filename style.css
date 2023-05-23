@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form{
+background-color: aliceblue;
+padding: 20px;
+box-shadow: 0 3px 8px ;
+border-radius: 10px;
+}
+.score{
+    color: brown;
+    text-align:right;
+}
+.input{
+   display: block;
+   width: 100%; 
+   box-sizing: border-box;
+   font-size: 20px;
+   text-align: center;
+   padding:3px ;
+   color: blue;
+   border: solid 3px greenyellow;
+}
+.btn{
+    background-color: green;
+    color: aliceblue;
+    border:none ;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0;
+    cursor: pointer;
+}
